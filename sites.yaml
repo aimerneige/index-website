@@ -1,0 +1,111 @@
+# ==============================================================================
+# Aimer's Hub - 站点与小工具配置文件
+# ==============================================================================
+# 修改此文件即可新增、删除或调整你的静态导航页站点。
+#
+# 支持的字段说明：
+# - title: 工具简短英文/主要名称（如 Posta, UUID）
+# - name: 工具中文全名或副标题（如 邮寄地址管理与 A4 排版）
+# - description: 详细功能说明
+# - url: 站点的完整链接（支持 https:// 开头）
+# - category: 所属分类 ID，需与下方 categories 中定义的 id 一致
+# - icon: 图标名称（支持常见 Lucide 图标名，如 Mail, Image, Hash, FileCode2, KeyRound, Info, Zap, Sparkles, Terminal, Book, Compass 等）
+# - color: 主题色强调（如 sky, violet, blue, amber, emerald, teal, rose, indigo）
+# - badge: 右上角标签（如 "常用", "纯前端", "v4/v7", 可选）
+# - tags: 标签列表，用于分类筛选与关键词模糊检索
+# ==============================================================================
+
+meta:
+  title: "Aimer's Hub"
+  subtitle: "个人小工具与静态站点导航"
+  description: "精选轻量、即开即用的纯前端实用小工具合集"
+  author: "Aimer"
+  domain: "www.aimer.moe"
+  github: "https://github.com/tenserudo"
+
+# 分类标签定义（id 为唯一标识符）
+categories:
+  - id: "all"
+    name: "全部工具"
+    icon: "Sparkles"
+  - id: "dev"
+    name: "开发与数据"
+    icon: "Code2"
+  - id: "media"
+    name: "图像与媒体"
+    icon: "Image"
+  - id: "security"
+    name: "安全与凭据"
+    icon: "ShieldCheck"
+  - id: "office"
+    name: "实用与排版"
+    icon: "Printer"
+
+# 站点列表
+sites:
+  - title: "Posta"
+    name: "Posta 邮寄排版"
+    description: "邮寄地址管理与标准 A4 纸打印排版工具，支持多地址模板与高清排版输出。"
+    url: "https://posta.aimer.moe/"
+    category: "office"
+    icon: "Mail"
+    color: "sky"
+    tags: ["办公", "排版", "打印", "A4", "地址"]
+    badge: "实用"
+
+  - title: "Gallery"
+    name: "Gallery 个人画廊"
+    description: "轻量级个人图片画廊与相册浏览，支持大图灯箱预览、无损缩略图展示与流式布局。"
+    url: "https://gallery.aimer.moe/"
+    category: "media"
+    icon: "Image"
+    color: "violet"
+    tags: ["画廊", "相册", "图片", "媒体", "浏览"]
+
+  - title: "UUID"
+    name: "UUID 生成解析"
+    description: "在线批量生成 UUID v1/v4/v7、GUID，支持格式化、校验及元数据解析。"
+    url: "https://uuid.aimer.moe/"
+    category: "dev"
+    icon: "Hash"
+    color: "blue"
+    tags: ["UUID", "GUID", "随机数", "开发", "调试"]
+    badge: "v4 / v7"
+
+  - title: "JSON"
+    name: "JSON 格式化校验"
+    description: "纯前端高效的 JSON 格式化、压缩校验、高亮树形视图展示与错误精确定位。"
+    url: "https://json.aimer.moe/"
+    category: "dev"
+    icon: "FileCode2"
+    color: "amber"
+    tags: ["JSON", "格式化", "校验", "开发", "树状视图"]
+
+  - title: "PWD"
+    name: "PWD 强密码生成"
+    description: "安全可靠的随机强密码生成器，支持自定义字符集、密码强度与熵值评估。"
+    url: "https://pwd.aimer.moe/"
+    category: "security"
+    icon: "KeyRound"
+    color: "emerald"
+    tags: ["密码", "安全", "强随机", "凭据"]
+    badge: "高安全"
+
+  - title: "Meta"
+    name: "Meta 元信息查看"
+    description: "网页元标签、Open Graph 社交卡片实时预览，以及多媒体 EXIF 元数据提取分析。"
+    url: "https://meta.aimer.moe/"
+    category: "dev"
+    icon: "Info"
+    color: "teal"
+    tags: ["Meta", "OpenGraph", "SEO", "EXIF", "元数据"]
+
+  - title: "WebP"
+    name: "WebP 图片转换器"
+    description: "基于浏览器纯前端的高性能 WebP 格式批量转换与体积压缩优化工具。"
+    url: "https://webp.aimer.moe/"
+    category: "media"
+    icon: "Zap"
+    color: "rose"
+    tags: ["WebP", "图像优化", "格式转换", "纯前端", "压缩"]
+    badge: "纯前端"
