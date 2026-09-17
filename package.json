@@ -12,14 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "11.24.0",
-      "onFail": "download"
-    }
-  },
-  "packageManager": "pnpm@11.24.0",
+  "packageManager": "npm@10.9.7",
   "type": "module",
   "dependencies": {
     "js-yaml": "^5.4.1",

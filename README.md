@@ -45,15 +45,11 @@ sites:
 
 ### 1. 启动本地开发服务
 ```bash
-pnpm dev
-# 或
 npm run dev
 ```
 
 ### 2. 编译生产版本
 ```bash
-pnpm build
-# 或
 npm run build
 ```
 编译成功后，将在 `dist/` 目录下生成全部静态文件：
@@ -65,8 +61,6 @@ npm run build
 
 ### 3. 本地预览生产构建产物
 ```bash
-pnpm preview
-# 或
 npm run preview
 ```
 
