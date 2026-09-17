@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node -e \"const fs=require('fs'); fs.copyFileSync('sites.yaml', 'public/sites.yaml');\"",
     "build": "vite build",
+    "postbuild": "node -e \"const fs=require('fs'); fs.copyFileSync('sites.yaml', 'dist/sites.yaml');\"",
     "preview": "vite preview",
     "deploy": "bash deploy.sh"
   },
