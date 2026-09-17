@@ -68,4 +68,11 @@ npm run preview
 
 ## 📦 部署到 GitHub Pages
 
-直接将 `dist` 目录中的全部文件上传到你的目标 GitHub Pages 仓库的分支（如 `gh-pages` 或 `main` 的 root 路径）即可，无需任何额外的 CI 流程。
+可以运行一键部署脚本将 `dist/` 静态产物构建并推送到 GitHub Pages 仓库：
+```bash
+npm run deploy
+# 或自定义 commit 消息：
+bash deploy.sh "feat: update sites"
+```
+
+也可以直接将 `dist` 目录中的全部文件上传到你的目标 GitHub Pages 仓库的分支即可。
