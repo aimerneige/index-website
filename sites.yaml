@@ -121,3 +121,13 @@ sites:
     color: "indigo"
     tags: ["明信片", "图片排版", "摄影", "卡片制作", "纯本地"]
     badge: "纯本地"
+
+  - title: "LoveLive"
+    name: "LoveLive 四格漫画引擎"
+    description: "非官方静态漫画提示词与图片生成工作台，支持基于 LLM 的四格分镜创作、角色设定管理与全自动生成工作流。"
+    url: "https://lovelive.fan/"
+    category: "media"
+    icon: "Sparkles"
+    color: "rose"
+    tags: ["LoveLive", "四格漫画", "分镜生成", "提示词", "同人创作", "LLM"]
+    badge: "工作台"
