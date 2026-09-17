@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "node -e \"const fs=require('fs'); fs.copyFileSync('sites.yaml', 'dist/sites.yaml');\"",
+    "postbuild": "node scripts/postbuild.js",
     "preview": "vite preview",
     "deploy": "bash deploy.sh"
   },

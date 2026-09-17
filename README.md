@@ -58,6 +58,8 @@ npm run build
 - `dist/assets/`：已压缩混淆的 JS / CSS 资源
 - `dist/favicon.svg`：Material Design 3 矢量图标
 - `dist/sites.yaml`：站点配置文件
+- `dist/sitemap.xml`：搜索引擎 Sitemap 站点地图
+- `dist/robots.txt`：搜索引擎爬虫协议与 Sitemap 指向
 
 ### 3. 本地预览生产构建产物
 ```bash
