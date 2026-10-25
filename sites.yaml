@@ -131,3 +131,49 @@ sites:
     color: "rose"
     tags: ["LoveLive", "四格漫画", "分镜生成", "提示词", "同人创作", "LLM"]
     badge: "工作台"
+
+  - title: "CD Cabinet"
+    name: "CD Cabinet 虚拟唱片柜"
+    description: "浏览器本地 CD 收藏与播放工具，支持立体唱片盒展示、专辑封面与歌词册编辑、音频导入及唱片排序。"
+    url: "https://cd.aimer.moe/"
+    category: "media"
+    icon: "Music"
+    color: "amber"
+    tags: ["CD", "唱片", "音乐", "收藏", "播放器", "纯本地"]
+
+  - title: "Finance"
+    name: "知钱 · 金融入门"
+    description: "中文金融入门学习站点，提供交互公式与复利、储蓄目标、房贷和现值计算器，所有计算均在浏览器本地完成。"
+    url: "https://finance.aimer.moe/"
+    category: "office"
+    icon: "Book"
+    color: "emerald"
+    tags: ["金融", "学习", "复利", "储蓄", "房贷", "计算器"]
+
+  - title: "Exchange"
+    name: "交换小站 · 周边交换展示"
+    description: "适用于演唱会与活动现场的周边交换展示工具，支持 HAVE/WANT 分栏、商品图片与数量管理、展示模式及离线使用。"
+    url: "https://exchange.lovelive.moe/"
+    category: "office"
+    icon: "Layers"
+    color: "rose"
+    tags: ["LoveLive", "周边", "交换", "现场展示", "离线", "PWA"]
+    badge: "PWA"
+
+  - title: "PayPie"
+    name: "PayPie 分期付款追踪器"
+    description: "本地分期账本工具，支持还款计划管理、实际还款记录、现金流预测、提前还款模拟与 JSON 备份导入导出。"
+    url: "http://paypie.aimer.moe/"
+    category: "office"
+    icon: "Calendar"
+    color: "blue"
+    tags: ["分期", "账本", "还款", "现金流", "备份", "纯本地"]
+
+  - title: "Subscrible"
+    name: "Subscrible 订阅管理"
+    description: "轻量本地订阅管理工具，支持订阅与周期性支出记录、分币种月均统计、扣款日历、搜索筛选及 JSON 备份。"
+    url: "https://subscrible.aimer.moe/"
+    category: "office"
+    icon: "Clock"
+    color: "violet"
+    tags: ["订阅", "周期支出", "预算", "扣款日历", "备份", "纯本地"]
